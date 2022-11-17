@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/primary_light_green"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.WelcomeFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--AppBar-->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            app:elevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:paddingTop="@dimen/margin_10"
+                android:background="@color/primary_light_green"
+                android:id="@+id/myToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:paddingStart="@dimen/toolbarPaddingStart"
+                    android:paddingEnd="@dimen/toolbarPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <FrameLayout
+                        android:background="@drawable/circle_bg"
+                        android:layout_width="@dimen/toolbarIconSize"
+                        android:layout_height="@dimen/toolbarIconSize">
+                        <ImageView
+                            android:padding="@dimen/item_padding_10"
+                            android:layout_gravity="center"
+                            android:src="@drawable/option"
+                            android:layout_width="@dimen/toolbarIconSize"
+                            android:layout_height="@dimen/toolbarIconSize"/>
+                    </FrameLayout>
+
+                    <ImageView
+                        android:padding="@dimen/item_padding_5"
+                        android:layout_width="@dimen/toolbarIconSize"
+                        android:layout_height="@dimen/toolbarIconSize"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/menu"
+                        app:tint="@color/grey_black" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <!--Welcome Txt1-->
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_20"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/welcomeTxtStyle"
+                android:text="@string/welcome_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <FrameLayout
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_width="@dimen/welcomeTxtSize"
+                android:layout_height="@dimen/welcomeTxtSize">
+                <com.example.business_app_design.utils.HexagonMaskView
+                    android:src="@color/grey_black"
+                    android:layout_width="@dimen/welcomeTxtSize"
+                    android:layout_height="@dimen/welcomeTxtSize">
+                </com.example.business_app_design.utils.HexagonMaskView>
+                <ImageView
+                    android:padding="@dimen/item_padding_10"
+                    android:src="@drawable/ic_heartbeat"
+                    android:layout_width="@dimen/welcomeTxtSize"
+                    android:layout_height="@dimen/welcomeTxtSize">
+                </ImageView>
+            </FrameLayout>
+
+        </LinearLayout>
+        <!--Welcome Txt2-->
+        <TextView
+            android:gravity="center"
+            android:text="@string/welcome_txt2"
+            style="@style/welcomeTxtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <!--Peoples Layout1-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.example.business_app_design.utils.HexagonMaskView
+                android:layout_gravity="start"
+                android:src="@drawable/p1"
+                android:layout_width="@dimen/small_icon_size_width_100"
+                android:layout_height="@dimen/small_icon_size_width_100">
+            </com.example.business_app_design.utils.HexagonMaskView>
+            <com.example.business_app_design.utils.HexagonMaskView
+                android:layout_gravity="center"
+                android:src="@color/white"
+                android:layout_width="@dimen/small_icon_size_width_100"
+                android:layout_height="@dimen/small_icon_size_width_100">
+            </com.example.business_app_design.utils.HexagonMaskView>
+        </LinearLayout>
+        <!--Peoples Layout2-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.example.business_app_design.utils.HexagonMaskView
+                android:layout_gravity="center"
+                android:src="@color/white"
+                android:layout_width="@dimen/small_icon_size_width_100"
+                android:layout_height="@dimen/small_icon_size_width_100">
+            </com.example.business_app_design.utils.HexagonMaskView>
+            <com.example.business_app_design.utils.HexagonMaskView
+                android:layout_gravity="start"
+                android:src="@drawable/pp2"
+                android:layout_width="@dimen/small_icon_size_width_100"
+                android:layout_height="@dimen/small_icon_size_width_100">
+            </com.example.business_app_design.utils.HexagonMaskView>
+            <com.example.business_app_design.utils.HexagonMaskView
+                android:layout_gravity="center"
+                android:src="@color/white"
+                android:layout_width="@dimen/small_icon_size_width_100"
+                android:layout_height="@dimen/small_icon_size_width_100">
+            </com.example.business_app_design.utils.HexagonMaskView>
+
+        </LinearLayout>
+        <!--Peoples Layout3-->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.example.business_app_design.utils.HexagonMaskView
+                android:layout_gravity="center"
+                android:src="@color/white"
+                android:layout_width="@dimen/small_icon_size_width_100"
+                android:layout_height="@dimen/small_icon_size_width_100">
+            </com.example.business_app_design.utils.HexagonMaskView>
+            <com.example.business_app_design.utils.HexagonMaskView
+                android:layout_gravity="start"
+                android:src="@drawable/p3"
+                android:layout_width="@dimen/small_icon_size_width_100"
+                android:layout_height="@dimen/small_icon_size_width_100">
+            </com.example.business_app_design.utils.HexagonMaskView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginVertical="@dimen/bottomBar_button_margin"
+        android:id="@+id/getStartedLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/bottomBar_button_padding"
+        android:paddingVertical="@dimen/item_padding_5">
+
+        <TextView
+            style="@style/titleTxtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_started"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_arrow_right" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="bg_light_grey">#F8F8F8</color>
+    <color name="black">#FF000000</color>
+    <color name="disabledTxtColor">#9D9FA2</color>
+    <color name="grey_black">#373A3C</color>
+    <color name="primary_light_green">#D3F36B</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="subtitleTxtColor">#636363</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="titleTxtColor">#000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="bottomBar_button_margin">30dp</dimen>
+    <dimen name="bottomBar_button_padding">10dp</dimen>
+    <dimen name="buttonsTxtSize">24sp</dimen>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="circle_card_corner_radius">250dp</dimen>
+    <dimen name="home_horizontal_scroll_height">120dp</dimen>
+    <dimen name="item_padding_10">10dp</dimen>
+    <dimen name="item_padding_16">16dp</dimen>
+    <dimen name="item_padding_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="profile_icon_size">60dp</dimen>
+    <dimen name="rcvTitleTxtSize">18sp</dimen>
+    <dimen name="smallTxtSize">12sp</dimen>
+    <dimen name="small_icon_size_width_100">100dp</dimen>
+    <dimen name="subtitleTxtSize">16sp</dimen>
+    <dimen name="titleTxtSize">24sp</dimen>
+    <dimen name="toolbarIconSize">48dp</dimen>
+    <dimen name="toolbarPadding">16dp</dimen>
+    <dimen name="toolbarPaddingStart">0dp</dimen>
+    <dimen name="welcomeTxtSize">48sp</dimen>
+    <string name="_3_min_ago">3 min ago</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_task_subtitle">Creatives\nfor branging</string>
+    <string name="app_name">Business App Design</string>
+    <string name="carolina_tiner">Carolina Tiner</string>
+    <string name="completed">Completed</string>
+    <string name="document_verification">Document Verification</string>
+    <string name="flows_list">Flows list</string>
+    <string name="get_started">Get Started</string>
+    <string name="hello_home">Hello Home fragment</string>
+    <string name="hello_settings_fragment">Hello Settings fragment</string>
+    <string name="hello_stats_fragment">Hello Stats fragment</string>
+    <string name="home">Home</string>
+    <string name="home_completed_subtitle">Completed meeting\nwith the CEO</string>
+    <string name="home_title_text">Task-based\nexplanation process</string>
+    <string name="home_verify_subtitle">Verification\nprocess with team</string>
+    <string name="overview">Overview</string>
+    <string name="review">Review</string>
+    <string name="see_all">See all</string>
+    <string name="setting">Setting</string>
+    <string name="try_to_find">Try to find ..</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="welcome_txt1">Market</string>
+    <string name="welcome_txt2">your growth strategy</string>
+    <style name="Theme.HazesoftDay1Task" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.HazesoftDay1Task.NoActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+    <style name="rcvTitleTxtStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/titleTxtColor</item>
+        <item name="android:textSize">@dimen/rcvTitleTxtSize</item>
+    </style>
+    <style name="subtitleTxtStyle">
+        <item name="android:textColor">@color/subtitleTxtColor</item>
+        <item name="android:textSize">@dimen/subtitleTxtSize</item>
+    </style>
+    <style name="titleTxtStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/titleTxtColor</item>
+        <item name="android:textSize">@dimen/titleTxtSize</item>
+    </style>
+    <style name="welcomeTxtStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/grey_black</item>
+        <item name="android:textSize">@dimen/welcomeTxtSize</item>
+    </style>
+</resources>

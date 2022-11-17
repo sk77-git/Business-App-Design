@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable-v24/rounded_corner.xml" value="0.152" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/circle_bg.xml" value="0.149" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/circle_bg_light_green.xml" value="0.1" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/dotted_bg.xml" value="0.1" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/ic_arrow_right.xml" value="0.136" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/ic_heartbeat.xml" value="0.149" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/rounded_corner_grey.xml" value="0.1" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/rounded_corner_light_green.xml" value="0.1" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/drawable/rounded_corner_white.xml" value="0.1" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/layout/fragment_settings.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/layout/fragment_stats.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/layout/fragment_welcome.xml" value="0.22" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/layout/single_flow_item.xml" value="0.2" />
+        <entry key="..\:/Users/SHRAWAN/AndroidStudioProjects/HazesoftDay1Task/app/src/main/res/menu/bottom_menu.xml" value="0.21770833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

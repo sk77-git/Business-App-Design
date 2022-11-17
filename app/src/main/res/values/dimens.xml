@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbarIconSize">48dp</dimen>
+    <dimen name="toolbarPadding">16dp</dimen>
+    <dimen name="toolbarPaddingStart">0dp</dimen>
+    <dimen name="welcomeTxtSize">48sp</dimen>
+    <dimen name="buttonsTxtSize">24sp</dimen>
+    <dimen name="titleTxtSize">24sp</dimen>
+    <dimen name="rcvTitleTxtSize">18sp</dimen>
+    <dimen name="subtitleTxtSize">16sp</dimen>
+    <dimen name="smallTxtSize">12sp</dimen>
+
+    <dimen name="item_padding_5">5dp</dimen>
+    <dimen name="item_padding_10">10dp</dimen>
+    <dimen name="item_padding_16">16dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+
+    <dimen name="small_icon_size_width_100">100dp</dimen>
+    <dimen name="bottomBar_button_margin">30dp</dimen>
+    <dimen name="bottomBar_button_padding">10dp</dimen>
+    <dimen name="profile_icon_size">60dp</dimen>
+    <dimen name="circle_card_corner_radius">250dp</dimen>
+
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="home_horizontal_scroll_height">120dp</dimen>
+</resources>

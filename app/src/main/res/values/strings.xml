@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Business App Design</string>
+
+    <string name="get_started">Get Started</string>
+    <string name="welcome_txt1">Market</string>
+    <string name="welcome_txt2">your growth strategy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_home">Hello Home fragment</string>
+    <string name="hello_stats_fragment">Hello Stats fragment</string>
+    <string name="hello_settings_fragment">Hello Settings fragment</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="try_to_find">Try to find ..</string>
+    <string name="home_title_text">Task-based\nexplanation process</string>
+    <string name="add_task_subtitle">Creatives\nfor branging</string>
+    <string name="add_task">Add Task</string>
+    <string name="review">Review</string>
+    <string name="home_verify_subtitle">Verification\nprocess with team</string>
+    <string name="completed">Completed</string>
+    <string name="home_completed_subtitle">Completed meeting\nwith the CEO</string>
+    <string name="see_all">See all</string>
+    <string name="flows_list">Flows list</string>
+    <string name="document_verification">Document Verification</string>
+    <string name="_3_min_ago">3 min ago</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="overview">Overview</string>
+    <string name="carolina_tiner">Carolina Tiner</string>
+</resources>

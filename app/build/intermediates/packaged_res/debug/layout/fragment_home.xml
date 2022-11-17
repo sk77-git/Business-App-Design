@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@color/bg_light_grey"
+    android:paddingHorizontal="@dimen/item_padding_16"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Profile Row-->
+   <RelativeLayout
+       android:layout_marginTop="@dimen/margin_20"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               style="@style/subtitleTxtStyle"
+               android:text="@string/welcome_back"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               style="@style/titleTxtStyle"
+               android:text="@string/carolina_tiner"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+       <com.google.android.material.card.MaterialCardView
+           android:layout_alignParentEnd="true"
+           android:layout_width="@dimen/profile_icon_size"
+           android:layout_height="@dimen/profile_icon_size"
+           app:cardCornerRadius="@dimen/circle_card_corner_radius"
+           app:cardBackgroundColor="@color/transparent">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/pp2"
+               android:scaleType="centerCrop"/>
+
+       </com.google.android.material.card.MaterialCardView>
+   </RelativeLayout>
+    <!--Search View-->
+    <EditText
+        android:inputType="text"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:textColorHint="@color/grey_black"
+        android:layout_marginTop="@dimen/margin_20"
+        android:padding="@dimen/item_padding_10"
+        android:background="@drawable/rounded_corner_white"
+        android:hint="@string/try_to_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <!--Title Text-->
+    <TextView
+        android:layout_marginTop="@dimen/margin_20"
+        style="@style/titleTxtStyle"
+        android:text="@string/home_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:paddingVertical="@dimen/item_padding_10"
+        android:layout_marginVertical="@dimen/margin_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/home_horizontal_scroll_height">
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="@dimen/item_padding_16"
+                android:background="@drawable/dotted_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner_light_green"
+                    android:paddingHorizontal="@dimen/item_padding_10"
+                    android:paddingVertical="@dimen/item_padding_5"
+                    android:text="@string/add_task"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="@dimen/subtitleTxtSize"
+                    android:textColor="@color/grey_black"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:text="@string/add_task_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:layout_marginStart="@dimen/margin_20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/item_padding_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_corner_grey"
+                        android:paddingHorizontal="@dimen/item_padding_10"
+                        android:paddingVertical="@dimen/item_padding_5"                        android:text="@string/review"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:textSize="@dimen/subtitleTxtSize"
+                        android:textColor="@color/grey_black"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:text="@string/home_verify_subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="@dimen/card_corner_radius"
+                android:layout_marginStart="@dimen/margin_20"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="@dimen/item_padding_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_corner_grey"
+                        android:paddingHorizontal="@dimen/item_padding_10"
+                        android:paddingVertical="@dimen/item_padding_5"                        android:text="@string/completed"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:textSize="@dimen/subtitleTxtSize"
+                        android:textColor="@color/grey_black"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:text="@string/home_completed_subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+   <!--Flows list Title-->
+    <RelativeLayout
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_width="match_parent"
+        android:layout_height="26dp">
+
+        <TextView
+            style="@style/titleTxtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flows_list"
+            app:drawableEndCompat="@drawable/ic_baseline_arrow_drop_down_24"/>
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/see_all"
+            style="@style/subtitleTxtStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </RelativeLayout>
+    <!--Flows List Item Recyclerview-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/flowsRecyclerview"
+        tools:listitem="@layout/single_flow_item"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
